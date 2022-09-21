@@ -1,0 +1,4 @@
+Add Following Nuget Packages
+
+	1. Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+	2. Microsoft.EntityFrameworkCore;

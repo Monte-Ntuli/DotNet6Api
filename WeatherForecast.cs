@@ -1,4 +1,4 @@
-namespace ApiTemplateDotNet6
+namespace Api
 {
     public class WeatherForecast
     {

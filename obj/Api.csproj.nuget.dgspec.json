@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\ApiTemplateDotNet6.csproj": {}
+    "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\ApiTemplateDotNet6.csproj": {
+    "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\ApiTemplateDotNet6.csproj",
-        "projectName": "ApiTemplateDotNet6",
-        "projectPath": "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\ApiTemplateDotNet6.csproj",
+        "projectUniqueName": "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\Api.csproj",
         "packagesPath": "C:\\Users\\E7240\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\E7240\\Documents\\GitHub\\DotNet6Api\\obj\\",
         "projectStyle": "PackageReference",
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
